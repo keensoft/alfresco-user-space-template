@@ -2,7 +2,7 @@
 Alfresco User Space Template
 ============================
 
-Adds the ability to create a default set of folders to an Alfreso user home by leveraging Space Templates.
+Adds the ability to create a default set of folders to an Alfresco user home by leveraging Space Templates.
 
 After installing this AMP in your Alfresco WAR, you can create a folder under Data Dictionary for user home templates. Then, anything you put in that folder will be copied into the user home folder for new users.
 
@@ -46,6 +46,7 @@ After installation and before starting Alfresco, following property should be in
 // Folder to be used as template for user home folder creation
 userhome.template.path=/app:company_home/app:dictionary/cm:User_x0020_home_x0020_template
 ```
+
 
 Contributors
 ------------
