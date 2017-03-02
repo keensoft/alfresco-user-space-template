@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+<beans>
+
+    <bean id="user-space-template-repo_userTemplateBehavior" 
+          class="es.keensoft.behavior.UserHomeFromTemplate" 
+          init-method="init">
+        <property name="policyComponent" ref="policyComponent"/>
+        <property name="serviceRegistry" ref="ServiceRegistry"/>
+        <property name="userHomeTemplatePath" value="${userhome.template.path}"/>
+    </bean>
+
+</beans>
